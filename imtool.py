@@ -8,7 +8,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 
-image = cv2.imread('sample.jpg')
+image = cv2.imread('s3.jpg')
 
 if image is None:
     print("Error: Image not found or unable to load.")
